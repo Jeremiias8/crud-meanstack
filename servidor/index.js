@@ -38,10 +38,10 @@ app.use('/api/productos', require('./routes/producto'));
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost:27017/meanproductos')
     .then(() => {
-        console.log("Conexión a la BBDD exitosa");
+        console.log("Conexión a la BBDD exitosa !");
 
         app.listen(port, () => {
-            console.log("Server works!");
+            console.log("Server is working...");
         });
     })
     .catch(err => console.log(err));
