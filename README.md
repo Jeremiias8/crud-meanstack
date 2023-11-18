@@ -1,2 +1,2 @@
 # crud-meanstack
-(CRUD) -> Create, Read, Update & Delete de tipo FullStack (Angular-NodeJS, Express, MongoDB).
+(CRUD) -> Create, Read, Update & Delete de tipo Full Stack (Angular-NodeJS, Express, MongoDB).
